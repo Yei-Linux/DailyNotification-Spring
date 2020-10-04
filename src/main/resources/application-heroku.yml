@@ -1,0 +1,25 @@
+server:
+  port: ${SERVER_PORT}
+  servlet:
+    context-path: ${SERVER_PATH}
+
+spring:
+  jackson:
+    time-zone:  ${TIME_ZONE}
+    date-format: ${DATE_FORMAT}
+    locale: ${LOCALE}
+
+email-api:
+  email: ${EMAIL}
+  password: ${PASSWORD}
+
+sms-api:
+  account-sid: ${SMS_SID}
+  auth-token: ${SMS_TOKEN}
+  phone-number: ${SMS_PHONE}
+
+credentials:
+  auth-header-name: ${API_HEADER_NAME}
+  auth-header-key: ${API_HEADER_VALUE}
+
+disable-security: ${IS_SECURITY}
