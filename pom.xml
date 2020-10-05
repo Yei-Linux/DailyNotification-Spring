@@ -13,7 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>notification</name>
 	<description>Microservice to send notifications</description>
-	<packaging>war</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
